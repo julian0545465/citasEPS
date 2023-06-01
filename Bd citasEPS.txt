@@ -1,0 +1,20 @@
+create database citas;
+use citas;
+
+CREATE TABLE usuario (
+    cedula INT NOT NULL,
+    nombre VARCHAR(128) NOT NULL,
+    apellido VARCHAR(128) NOT NULL,
+    sexo VARCHAR(128) NOT NULL,
+    edad INT NOT NULL,
+    telefono VARCHAR(10) NOT NULL,
+    correo VARCHAR(128) NOT NULL,
+	contraseña VARCHAR(128) NOT NULL,
+    PRIMARY KEY (cedula)
+);
+
+INSERT INTO usuario VALUES
+(1001051942,'Julian','Velasco','masculino',19, '3212026263', 'jcvelasco@misena.edu.co','Julian05');
+
+
+
